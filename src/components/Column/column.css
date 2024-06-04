@@ -1,0 +1,28 @@
+.column_head {
+  max-width: 350px;
+  padding: 0.25rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: gray;
+}
+
+.column_left i {
+  padding: 0.3rem;
+  border-radius: 50%;
+  box-shadow: 0 0 2px gray;
+}
+
+.column_left .column_name {
+  margin-left: 0.5rem;
+  color: black;
+  font-weight: 500;
+}
+
+.column_right i {
+  margin-left: 0.5rem;
+}
+
+.column_cards {
+  padding: 1rem 0;
+}

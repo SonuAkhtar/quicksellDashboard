@@ -1,0 +1,65 @@
+nav {
+  padding: 1rem 2rem;
+  background-color: white;
+  position: relative;
+}
+
+nav .nav_display {
+  width: max-content;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+nav .fa-angle-down {
+  rotate: -90deg;
+  transition: all 0.5s ease;
+}
+
+nav .fa-angle-down.active {
+  rotate: 0deg;
+}
+
+nav .nav_details {
+  position: absolute;
+  top: 3.5rem;
+  left: 2rem;
+  background-color: white;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+  padding: 0.5rem 1rem;
+  width: max-content;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+nav .nav_details.active {
+  display: flex;
+}
+
+nav .nav_details .nav_detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+nav .nav_detail .detail_name {
+  color: gray;
+}
+
+nav .detail_drop select {
+  border: 1px solid lightgray;
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+}

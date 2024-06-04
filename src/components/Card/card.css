@@ -1,0 +1,39 @@
+.card_container {
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.25rem;
+  width: max-content;
+  margin-bottom: 0.5rem;
+  min-width: 350px;
+}
+
+.card_name_pp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.card_name_pp i {
+  padding: 0.3rem;
+  border-radius: 50%;
+  box-shadow: 0 0 2px gray;
+}
+
+.card_title {
+  margin: 0.5rem 0 1rem 0;
+  font-weight: 500;
+}
+
+.card_options {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.card_container .fa-circle {
+  scale: 0.5;
+}
